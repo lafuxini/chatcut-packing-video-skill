@@ -1,0 +1,18 @@
+{
+  "name": "chatcut-packing-video-skill",
+  "version": "0.1.0",
+  "description": "A reusable ChatCut workflow for smooth, complete packing-video edits.",
+  "author": {
+    "name": "lafuxini"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "打包视频丝滑精剪",
+    "shortDescription": "在 ChatCut 中完整、流畅地精剪打包视频。",
+    "longDescription": "保留每个有效放置与贴纸动作，删除寻找和等待，使用 1.5–1.7 倍速、柔和粉嫩调色、背景降噪与本地导出。",
+    "developerName": "lafuxini",
+    "category": "Video",
+    "capabilities": ["video-editing", "chatcut-workflow"],
+    "defaultPrompt": "使用打包视频丝滑精剪规则，在 ChatCut 中剪辑我提供的素材。先确认 ChatCut 插件已连接，再完整保留每个独特放置和贴纸动作。"
+  }
+}

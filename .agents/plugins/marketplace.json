@@ -1,0 +1,20 @@
+{
+  "name": "lafuxini-video-skills",
+  "interface": {
+    "displayName": "Lafuxini Video Skills"
+  },
+  "plugins": [
+    {
+      "name": "chatcut-packing-video-skill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chatcut-packing-video-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Video"
+    }
+  ]
+}
